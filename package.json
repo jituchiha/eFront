@@ -4,9 +4,10 @@
   "private": true,
 
   "engines": {
-    "node" : "18.x"
+    "node" : "18.x",
+    "npm" : "9.x"
   },
-  
+
   "dependencies": {
     "@emotion/styled": "^11.10.6",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
