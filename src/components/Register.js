@@ -71,7 +71,7 @@ function Register() {
     
     axios({
       method : "POST",
-      url: 'https://evenues.herokuapp.com/register',
+      url: 'https://even.herokuapp.com/register',
       data: {
         firstname: firstname,
         lastname: lastname,

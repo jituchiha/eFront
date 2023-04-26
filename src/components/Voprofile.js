@@ -36,7 +36,7 @@ function Voprofile() {
       });
       */
 
-      fetch('https://evenues.herokuapp.com/voprofile', {
+      fetch('https://even.herokuapp.com/voprofile', {
         method: 'GET',
         credentials: 'include',
         headers: {
@@ -84,7 +84,7 @@ function Voprofile() {
       });
       */
 
-      fetch(`https://evenues.herokuapp.com/voprofile/${event_id}`, {
+      fetch(`https://even.herokuapp.com/voprofile/${event_id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

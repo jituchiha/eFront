@@ -20,7 +20,7 @@ import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Alert from 'react-bootstrap/Alert';
 
-let baseURL = "https://evenues.herokuapp.com/dataa?";
+let baseURL = "https://even.herokuapp.com/dataa?";
 let reactURL = "?";
 
 function App() {
@@ -74,7 +74,7 @@ function App() {
   const URL="http://localhost:3000/Search"
 
   useEffect(()=>{
-    axios.get("https://evenues.herokuapp.com/profile_data")
+    axios.get("https://even.herokuapp.com/profile_data")
       .then(response => {
         //console.log(response)
         setchatData(response.data);
@@ -102,7 +102,7 @@ function App() {
     
         setEndTime(formattedEndTime)
     
-        fetch('https://evenues.herokuapp.com/book_venue', {
+        fetch('https://even.herokuapp.com/book_venue', {
   method: 'POST',
   mode: 'cors',
   headers: {
@@ -266,7 +266,7 @@ function App() {
         const _id = activity._id
         const starttime = activity.starttime
 
-        fetch('https://evenues.herokuapp.com/book_event', {
+        fetch('https://even.herokuapp.com/book_event', {
   method: 'POST',
   mode: 'cors',
   credentials: 'include',
@@ -334,7 +334,7 @@ function App() {
         setplayerCheck(false);
         settypeFilter(value);
 
-        baseURL = "https://evenues.herokuapp.com/dataa?";
+        baseURL = "https://even.herokuapp.com/dataa?";
         reactURL = "?";
     }
     else if(value=="Venues"){
@@ -343,7 +343,7 @@ function App() {
         setplayerCheck(false);
         settypeFilter(value);
 
-        baseURL = "https://evenues.herokuapp.com/data?";
+        baseURL = "https://even.herokuapp.com/data?";
         reactURL = "?";
     }
     else if(value=="Players"){
@@ -353,7 +353,7 @@ function App() {
         settypeFilter(value);
 
 
-        baseURL = "https://evenues.herokuapp.com/datap?";
+        baseURL = "https://even.herokuapp.com/datap?";
         reactURL = "?";
     }
 

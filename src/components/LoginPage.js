@@ -93,7 +93,7 @@ function LoginPage() {
       console.log(error.response)
     })*/
 
-    fetch('https://evenues.herokuapp.com/login', {
+    fetch('https://even.herokuapp.com/login', {
     method: 'POST',
     mode: 'cors',
     credentials: 'include',

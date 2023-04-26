@@ -23,7 +23,7 @@ function UserProfile () {
   let participants=[]
 
 
-  const URL="https://evenuee.herokuapp.com/Profile";
+  const URL="https://even.herokuapp.com/Profile";
   
   useEffect(()=>{
     /*
@@ -37,7 +37,7 @@ function UserProfile () {
       })},[URL]);
     */
 
-      fetch("https://evenues.herokuapp.com/profile_data", {
+      fetch("https://even.herokuapp.com/profile_data", {
         method: "GET",
         credentials: "include",
         headers: {
@@ -93,7 +93,7 @@ function UserProfile () {
       setIsEditing(false);
     });*/
 
-    fetch('https://evenues.herokuapp.com/update_user_details', {
+    fetch('https://even.herokuapp.com/update_user_details', {
   method: 'POST',
   mode: 'cors',
   credentials: 'include',
@@ -245,7 +245,7 @@ function UserProfile () {
     });
     */
 
-    fetch('https://evenues.herokuapp.com/cancel_event', {
+    fetch('https://even.herokuapp.com/cancel_event', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',

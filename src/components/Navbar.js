@@ -27,7 +27,7 @@ function TopNav(props) {
     .catch ((err) => { console.log(err.response) })
     */
 
-    fetch('https://evenues.herokuapp.com/profile', {
+    fetch('https://even.herokuapp.com/profile', {
       method: 'GET',
       mode: 'cors', // sets the mode of the request to CORS
       credentials: 'include', // includes credentials like cookies in the request

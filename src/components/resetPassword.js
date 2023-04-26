@@ -38,7 +38,7 @@ function ResetPasswordForm() {
     function handleSubmit(){
 
         
-        axios.post("https://evenues.herokuapp.com/resetpassword",{"_id":id,"password":password})
+        axios.post("https://even.herokuapp.com/resetpassword",{"_id":id,"password":password})
             .then(response => {
                 console.log(response);
             })

@@ -17,7 +17,7 @@ function Participants(){
   const [data, setData] = useState([]);
 
   useEffect(()=>{
-    axios.get("https://evenues.herokuapp.com/get_participants",{
+    axios.get("https://even.herokuapp.com/get_participants",{
       params: {
         "eid":eventId
       }

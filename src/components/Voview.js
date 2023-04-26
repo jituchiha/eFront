@@ -213,7 +213,7 @@ function Voview(){
         console.log("Ekazuuu!");
         event.preventDefault();
         console.log("Inside event creation");
-        fetch('https://evenues.herokuapp.com/voview', {
+        fetch('https://even.herokuapp.com/voview', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'

@@ -19,7 +19,7 @@ function ForgotPassword() {
 
     function handleSubmit(){
       
-        axios.post('https://evenues.herokuapp.com/forgot password',{"email":email})
+        axios.post('https://even.herokuapp.com/forgot password',{"email":email})
               .then(response => {
                 console.log(response);
               })

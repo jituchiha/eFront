@@ -17,7 +17,7 @@ function Logout() {
     })
     */
 
-    fetch('https://evenues.herokuapp.com/logout', {
+    fetch('https://even.herokuapp.com/logout', {
         method: 'GET',
         mode: 'cors', // sets the mode of the request to CORS
         credentials: 'include', // includes credentials like cookies in the request

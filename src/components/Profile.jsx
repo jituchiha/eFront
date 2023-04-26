@@ -21,7 +21,7 @@ function Profile()  {
   });
   */
 
-  fetch('https://evenues.herokuapp.com/profile' + id, {
+  fetch('https://even.herokuapp.com/profile' + id, {
     method: 'GET',
     mode: 'cors',
     credentials: 'include',

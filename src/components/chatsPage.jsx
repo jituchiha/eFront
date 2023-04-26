@@ -23,7 +23,7 @@ function ChatsPage() {
     });
     */
 
-    fetch('https://evenues.herokuapp.com/chat_authentication', {
+    fetch('https://even.herokuapp.com/chat_authentication', {
       method: 'GET',
       mode: 'cors', // sets the mode of the request to CORS
       credentials: 'include', // includes credentials like cookies in the request

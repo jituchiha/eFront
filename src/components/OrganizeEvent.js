@@ -59,7 +59,7 @@ function OrganizeEvent(){
             })
         */
 
-            fetch('https://evenues.herokuapp.com/profile', {
+            fetch('https://even.herokuapp.com/profile', {
                 method: 'GET', // sets the HTTP method to GET
                 mode: 'cors', // sets the mode of the request to CORS
                 credentials: 'include', // includes credentials like cookies in the request
@@ -202,7 +202,7 @@ function OrganizeEvent(){
             });
         */
 
-            fetch('https://evenues.herokuapp.com/create_events', {
+            fetch('https://even.herokuapp.com/create_events', {
                 method: 'POST', // sets the HTTP method to POST
                 mode: 'cors', // sets the mode of the request to CORS
                 credentials: 'include', // includes credentials like cookies in the request
@@ -255,7 +255,7 @@ function OrganizeEvent(){
                 })
                 */
                 
-                axios.get('https://evenues.herokuapp.com/get_event_details',{
+                axios.get('https://even.herokuapp.com/get_event_details',{
                 params: {
                     _id: userId,
                     e_id: editId
@@ -302,7 +302,7 @@ function OrganizeEvent(){
 
         //editId="";
 
-        fetch('https://evenues.herokuapp.com/update_event_details', {
+        fetch('https://even.herokuapp.com/update_event_details', {
             method: 'POST',
             mode: 'cors', // sets the mode to cors
             credentials: 'include', // sets the credentials to include in the request

@@ -18,7 +18,7 @@ function TwoFA(){
     const usertype = new URLSearchParams(locations.search).get('usertype');
 
     function verifyCode() {
-        fetch('https://evenues.herokuapp.com/verify_code', {
+        fetch('https://even.herokuapp.com/verify_code', {
             method: 'POST',
             mode: 'cors',
             credentials: 'include',
